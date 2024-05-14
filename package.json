@@ -36,7 +36,8 @@
     "build-storybook": "storybook build",
     "clean": "rimraf dist/",
     "copyFiles": "copyfiles -u 1 src/**/*.css dist/",
-    "push:npm": "np"
+    "push:npm": "np",
+    "test": "echo 'No test implemented'"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
